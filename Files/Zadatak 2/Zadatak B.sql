@@ -1,0 +1,119 @@
+select a.city, count(*)
+from apartments a
+group by city
+
+--city               |count|
+---------------------+-----+
+--Majdanpek          |    1|
+--Rača               |    2|
+--Leskovac           |   17|
+--                   |  129|
+--Vršac              |    5|
+--Prokuplje          |    6|
+--Koceljeva          |    2|
+--Apatin             |   14|
+--Gornji Milanovac   |    8|
+--Vladičin Han       |    2|
+--Bačka Palanka      |    3|
+--Sremski Karlovci   |   38|
+--Vrbas              |    8|
+--Ćićevac            |    1|
+--Valjevo            |   12|
+--Lučani             |    1|
+--Knić               |    2|
+--Bačka Topola       |    1|
+--Bač                |    1|
+--Bogatić            |    1|
+--Ljig               |    5|
+--Kruševac           |   64|
+--Aleksandrovac      |    2|
+--Kraljevo           |   19|
+--Bela Palanka       |    3|
+--Ub                 |   17|
+--Golubac            |    3|
+--Irig               |   42|
+--Veliko Gradište    |    3|
+--Ćuprija            |   55|
+--Smederevo          |   14|
+--Šabac              |    9|
+--Subotica           |   35|
+--Vranje             |   20|
+--Pirot              |    6|
+--Sombor             |  152|
+--Žabalj             |   25|
+--Babušnica          |    1|
+--Kragujevac         |  423|
+--Sečanj             |    2|
+--Sremska Mitrovica  |    4|
+--Titel              |    9|
+--Ruma               |   16|
+--Čačak              |    8|
+--Odžaci             |    2|
+--Vranjska Banja     |    2|
+--Topola             |    3|
+--Trstenik           |    6|
+--Pančevo            |  144|
+--Kopaonik           |   45|
+--Novi Sad           | 5305|
+--Rekovac            |    2|
+--Aleksinac          |    7|
+--Kula               |    2|
+--Niš                | 1064|
+--Despotovac         |    2|
+--Žabari             |    2|
+--Kovin              |    6|
+--Užice              |   16|
+--Lajkovac           |    4|
+--Aranđelovac        |   20|
+--Svilajnac          |   15|
+--Smederevska Palanka|    7|
+--Alibunar           |    6|
+--Lapovo             |    2|
+--Sokobanja          |   12|
+--Šid                |    2|
+--Varvarin           |    2|
+--Inđija             |   80|
+--Žitište            |    3|
+--Bajina Bašta       |    4|
+--Požega             |    3|
+--Vladimirci         |    8|
+--Velika Plana       |    2|
+--Paraćin            |  128|
+--Temerin            |   24|
+--Žitorađa           |    1|
+--Bečej              |    3|
+--Prijepolje         |   15|
+--Kosjerić           |    3|
+--Stara Pazova       |   58|
+--Čajetina           |    6|
+--Bujanovac          |    1|
+--Bor                |    1|
+--Kikinda            |    2|
+--Gadžin Han         |    2|
+--Doljevac           |    1|
+--Bački Petrovac     |    4|
+--Nova Varoš         |    5|
+--Bela Crkva         |    1|
+--Opovo              |    5|
+--Merošina           |    5|
+--Vrnjačka Banja     |  295|
+--Pećinci            |    8|
+--Mionica            |    6|
+--Crna Trava         |    1|
+--Arilje             |    1|
+--Požarevac          |   21|
+--Srbobran           |    6|
+--Kovačica           |    7|
+--Loznica            |   17|
+--Krupanj            |    1|
+--Zlatibor           |  260|
+--Žagubica           |    1|
+--Tara               |    1|
+--Beočin             |   42|
+--Svrljig            |    1|
+--Raška              |    3|
+--Jagodina           |  199|
+--Zrenjanin          |   67|
+--Beograd            |11824|
+--Zaječar            |    2|
+--Batočina           |    3|

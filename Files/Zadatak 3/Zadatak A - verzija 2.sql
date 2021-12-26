@@ -1,0 +1,1 @@
+select "micro_location", count(*) from apartments a where city ilike 'Beograd' group by "micro_location" order by count desc limit 10
